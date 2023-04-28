@@ -493,28 +493,40 @@ table tr .green{
         margin-top: 10%;
         margin-bottom: 10%;
       }
-    #choose{
-          width: 45%;
-      }
-      .contenty{
-          display: grid;
-          grid-template-columns: repeat(2,1fr);
-          
-      }
-      .contenty h4 {
-        margin-top: 5%;
-          margin-left: -90%;
-          font-size: 20px;
-      }
-      .contenty p {
-        margin-left: -90%;
-        font-size: 15px;
-    }
+    
     .choice  i{
         width: 20%;
     }
-    
-    
+    .flex{
+        grid-template-columns: repeat(2fr,1);
+        display: grid;
+    }
+    .right-side .one{
+        margin-top: 3rem;
+        margin-left: 10rem;
+        background: #14191f;
+        height: 10vh;
+        width: 5vw;
+        border-radius: 2rem;
+        text-align: center;
+        border: .2rem solid var(--main-color2);
+    }
+    .right-side span{
+        text-align: center;
+    }
+    .right-side h1{
+        font-size: 5rem;
+    }
+    .right-side p{
+        font-size: 2rem;
+    }
+    .right-side .clarity{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .confidence h2{
+        font-size: 4rem;
+    }
     .subscribe{
         text-align: center;
         margin:10%;
